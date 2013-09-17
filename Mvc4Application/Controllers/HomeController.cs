@@ -25,7 +25,7 @@ namespace Mvc4Application.Controllers
         {
             ViewBag.Message = "Your app description page that allocates a big array!";
 
-            _bigArray = new byte[100 * 1000 * 1000];
+            _bigArray = new byte[150 * 1000 * 1000];
 
             return View();
         }
