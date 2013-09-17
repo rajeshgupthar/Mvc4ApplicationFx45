@@ -20,9 +20,12 @@ namespace Mvc4Application.Controllers
             return View();
         }
 
+        static byte[] _bigArray;
         public ActionResult About()
         {
-            ViewBag.Message = "Your app description page.";
+            ViewBag.Message = "Your app description page that allocates a big array!";
+
+            _bigArray = new byte[100 * 1000 * 1000];
 
             return View();
         }
