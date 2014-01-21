@@ -11,7 +11,7 @@ namespace Mvc4Application.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application. 333";
+            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application. 444";
 
             Trace.TraceInformation("Sample info trace");
             Trace.TraceWarning("Sample warning trace");
